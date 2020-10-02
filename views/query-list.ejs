@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List of Queries</title>
+</head>
+<body style="background-color: #3e978b;">
+    <% if(queries.length===undefined || queries.length===0) { %>
+        <h1>No Queries Found</h1>
+    <% } else { %>
+        <% for(let i=0;i<queries.length;i++) { %> 
+            <fieldset style="background-color: #f3b26c;border-radius:10px;margin:0px 10px 0px 10px">
+                <legend style="font-size: large;"><h3>Query:</h3></legend>
+                <p style="font-size: large;"><b>Full Name</b> : <%=queries[i].name%></p>
+                <p style="font-size: large;"><b>Email Address</b> : <%=queries[i].email%></p>
+                <p style="font-size: large;"><b>Mobile Number</b> : <%=queries[i].mobileNumber%></p>
+                <p style="font-size: large;"><b>Subject</b> : <%=queries[i].subject%></p>
+                <p style="font-size: large;"><b>Description</b> : <%=queries[i].description%></p>
+            </fieldset>
+        <% } %>
+    <% } %>
+
+</body>
+</html>

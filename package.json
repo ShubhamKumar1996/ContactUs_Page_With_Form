@@ -1,0 +1,27 @@
+{
+  "name": "contactus_page_with_form",
+  "version": "1.0.0",
+  "description": "A Simple Contact us page with a form to take input from User and send it to the Backend.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShubhamKumar1996/ContactUs_Page_With_Form.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShubhamKumar1996/ContactUs_Page_With_Form/issues"
+  },
+  "homepage": "https://github.com/ShubhamKumar1996/ContactUs_Page_With_Form#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7",
+    "nodemon": "^2.0.4"
+  }
+}
